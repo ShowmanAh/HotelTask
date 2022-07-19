@@ -1,0 +1,25 @@
+{
+    "name": "showman-ah/design-pattern-course",
+    "authors": [
+        {
+            "name": "showman ahmed",
+            "email": "showman.sh.ahmed@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/Acme"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "Tests/"
+        }
+    },
+    "scripts": {
+        "test" : "vendor/bin/phpunit"
+    }
+}
